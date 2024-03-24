@@ -87,18 +87,22 @@ figure .image-under{
 
 main{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+}
+
+.about_main{
+    margin-top: 30px;
 }
 
 h1.about-me, section.about-section{
-    
+    display: flex;
     width: fit-content;
 }
 
 h1.about-me{
     /* max-width: 100%; */
     
-    margin: 0% 5% 0 5%;
+    /* margin: 0% 5% 0 5%; */
    display: flex;
    flex-wrap: wrap;
    flex-direction: row;
@@ -107,21 +111,44 @@ h1.about-me{
     
 }
 
-.about-section::before{
+.about-section{
+    
+    /* position absolute on ::before will bound to its ancestor by puttin relative here*/
+    position:relative;
+    max-width: 30%;
+    flex: 1;
+   
+}
+
+/* .about-section::before{
     content: '';
     border-left: 5px solid rgb(255, 255, 0);
     margin-right: 10px;
     height: 100%;
-}
+    position: absolute;
+    top: 0;
+    bottom: 0;
+} */
 
-section.about-section{
-    display: flex;
-    max-width: 30%;
-   
-}
+
 
 .about-section p{
+    border-left: 5px solid yellow;
     font-weight: 800;
+    
+    display: flex;
+    
+    justify-content: space-between;
+    height: fit-content;
+}
+
+.handsome-img{
+    /* position: relative; */
+  
+    width: 400px;
+    height: 400px;
+    margin: 0px 40px 30px 80px;
+    
 }
 
 .work_main {
@@ -130,6 +157,11 @@ width: fit-content;
 position: relative;
 padding: 5% 2% 2% 2%;
 
+}
+.image-boxes img.Art{
+    max-width: 110%;
+    width: 110%;
+    height: 110%;
 }
 
 
@@ -164,7 +196,7 @@ h1.Work{
 .box{
     width: 250px;
     height: 250px;
-    margin: 10px 20px 10px 0px;
+    margin: 10px 40px 30px 0px;
    /* overflow: hidden;   seems like hiding the overflowed image when it scales up during hover */
     position: relative;
 }
@@ -207,8 +239,8 @@ h1.Work{
 
 
 nav.contact-links{
-    display: flex;
-   justify-content: space-evenly;
+    /* display: flex;
+   justify-content: space-evenly; */
     align-items: center;
    
    
@@ -220,10 +252,8 @@ nav.contact-links section {
     margin: 0 80px; 
 }
 
-.contact-title::after{
-    content: '';
-    border-left: 5px solid rgb(255, 255, 0);
-    margin-right: 20px;
-    margin-left: 58px;
-    height: 90%;
+.contact-title{
+ padding: 1%;
+ border-right: 5px solid yellow;
+ height: fit-content;
 }
