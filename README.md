@@ -5,7 +5,7 @@
 This work was created for showcasing professional portfolio with core css/html skills.  It contains notes on HTML and CSS.
 
 ## Screenshot
- <image src="./Assets/web-view.png>
+ <image src="./Assets/web-view.png">
 
 ## Installation
 
