@@ -4,6 +4,9 @@
 
 This work was created for showcasing professional portfolio with core css/html skills.  It contains notes on HTML and CSS.
 
+## Screenshot
+ <image src="./Assets/web-view.png>
+
 ## Installation
 
 N/A
@@ -16,6 +19,9 @@ It can be used to see my portfolio core skills, hobbies , about me, my contacts 
 
 Rutgers Bootcamp.
 
+## Deployment
+Link to my repo - Module 02(https://tarikorg.github.io/portfolio_core-Skills/)
+
 ## License
 
-Please refer to the LICENSE in the repo.
+Please refer to the LICENSE in the repo which, is the MIT license.
