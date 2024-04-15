@@ -7,6 +7,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* html,body{
@@ -43,12 +44,17 @@ header{
     display: flex; 
     justify-content: space-between; 
     align-items: center;
+   
     flex-wrap: wrap;
     background-color: black;
+    margin: 5px;
     padding: 15px 0%;
 
 }
 
+.directions{
+   text-align: center;
+}
 
 h2.logo {
     background-color: yellow;
@@ -87,7 +93,7 @@ figure .image-under{
 
 main{
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 
 .about_main{
@@ -139,28 +145,29 @@ h1.about-me{
     display: flex;
     
     justify-content: space-between;
-    height: fit-content;
+    /* height: fit-content; */
 }
 
 .handsome-img{
     /* position: relative; */
   
-    width: 400px;
-    height: 400px;
-    margin: 0px 40px 30px 80px;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 0px auto 30px;
     
 }
 
 .work_main {
-flex-direction: row;
-width: fit-content;
+flex-direction: column;
+width: 100%;
 position: relative;
-padding: 5% 2% 2% 2%;
+padding: 5% 2% ;
 
 }
 .image-boxes img.Art{
-    max-width: 110%;
-    width: 110%;
+    max-width: 100%;
+    width: 100%;
     height: 110%;
 }
 

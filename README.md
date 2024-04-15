@@ -20,7 +20,8 @@ It can be used to see my portfolio core skills, hobbies , about me, my contacts 
 Rutgers Bootcamp.
 
 ## Deployment
-Link to my repo - Module 02(https://tarikorg.github.io/portfolio_core-Skills/)
+- Link to my repo - Module 02(https://tarikorg.github.io/portfolio_core-Skills/)
+- Deployed application - https://tarikorg.github.io/portfolio_core-Skills/
 
 ## License
 
