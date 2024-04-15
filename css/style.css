@@ -192,6 +192,7 @@ h1.Work{
 
 .image-boxes{
     display: flex;
+    flex-wrap: wrap;
     justify-content:end;
     align-items: center;
     flex:1;
